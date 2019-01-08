@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		AC3F7C1E21E4D477001EFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C1D21E4D477001EFD8C /* AppDelegate.swift */; };
-		AC3F7C2021E4D477001EFD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C1F21E4D477001EFD8C /* ViewController.swift */; };
 		AC3F7C2321E4D477001EFD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F7C2121E4D477001EFD8C /* Main.storyboard */; };
 		AC3F7C2521E4D47E001EFD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F7C2421E4D47E001EFD8C /* Assets.xcassets */; };
 		AC3F7C2821E4D47E001EFD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F7C2621E4D47E001EFD8C /* LaunchScreen.storyboard */; };
+		AC3F7C3021E4D5BB001EFD8C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C2F21E4D5BB001EFD8C /* TabBarViewController.swift */; };
+		AC3F7C3221E4D859001EFD8C /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C3121E4D859001EFD8C /* RedViewController.swift */; };
+		AC3F7C3421E4D916001EFD8C /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C3321E4D916001EFD8C /* BlueViewController.swift */; };
+		AC3F7C3621E4D9AF001EFD8C /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C3521E4D9AF001EFD8C /* NavViewController.swift */; };
+		AC3F7C3821E4EC2D001EFD8C /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C3721E4EC2D001EFD8C /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC3F7C1A21E4D477001EFD8C /* TabBarConNavConWhithCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarConNavConWhithCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3F7C1D21E4D477001EFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC3F7C1F21E4D477001EFD8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC3F7C2221E4D477001EFD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC3F7C2421E4D47E001EFD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3F7C2721E4D47E001EFD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3F7C2921E4D47E001EFD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3F7C2F21E4D5BB001EFD8C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		AC3F7C3121E4D859001EFD8C /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		AC3F7C3321E4D916001EFD8C /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		AC3F7C3521E4D9AF001EFD8C /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		AC3F7C3721E4EC2D001EFD8C /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				AC3F7C1D21E4D477001EFD8C /* AppDelegate.swift */,
-				AC3F7C1F21E4D477001EFD8C /* ViewController.swift */,
+				AC3F7C2F21E4D5BB001EFD8C /* TabBarViewController.swift */,
+				AC3F7C3121E4D859001EFD8C /* RedViewController.swift */,
+				AC3F7C3321E4D916001EFD8C /* BlueViewController.swift */,
+				AC3F7C3521E4D9AF001EFD8C /* NavViewController.swift */,
+				AC3F7C3721E4EC2D001EFD8C /* YellowViewController.swift */,
 				AC3F7C2121E4D477001EFD8C /* Main.storyboard */,
 				AC3F7C2421E4D47E001EFD8C /* Assets.xcassets */,
 				AC3F7C2621E4D47E001EFD8C /* LaunchScreen.storyboard */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3F7C2021E4D477001EFD8C /* ViewController.swift in Sources */,
+				AC3F7C3221E4D859001EFD8C /* RedViewController.swift in Sources */,
+				AC3F7C3021E4D5BB001EFD8C /* TabBarViewController.swift in Sources */,
+				AC3F7C3821E4EC2D001EFD8C /* YellowViewController.swift in Sources */,
+				AC3F7C3421E4D916001EFD8C /* BlueViewController.swift in Sources */,
+				AC3F7C3621E4D9AF001EFD8C /* NavViewController.swift in Sources */,
 				AC3F7C1E21E4D477001EFD8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = TabBarConNavConWhithCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = TabBarConNavConWhithCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
