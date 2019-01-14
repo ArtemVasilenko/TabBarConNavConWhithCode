@@ -16,6 +16,7 @@
 		AC3F7C3421E4D916001EFD8C /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C3321E4D916001EFD8C /* BlueViewController.swift */; };
 		AC3F7C3621E4D9AF001EFD8C /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C3521E4D9AF001EFD8C /* NavViewController.swift */; };
 		AC3F7C3821E4EC2D001EFD8C /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C3721E4EC2D001EFD8C /* YellowViewController.swift */; };
+		ACF41FFC21E5F73000EAB693 /* BlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF41FFB21E5F73000EAB693 /* BlackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AC3F7C3321E4D916001EFD8C /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		AC3F7C3521E4D9AF001EFD8C /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 		AC3F7C3721E4EC2D001EFD8C /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		ACF41FFB21E5F73000EAB693 /* BlackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				AC3F7C3121E4D859001EFD8C /* RedViewController.swift */,
 				AC3F7C3321E4D916001EFD8C /* BlueViewController.swift */,
 				AC3F7C3521E4D9AF001EFD8C /* NavViewController.swift */,
+				ACF41FFB21E5F73000EAB693 /* BlackViewController.swift */,
 				AC3F7C3721E4EC2D001EFD8C /* YellowViewController.swift */,
 				AC3F7C2121E4D477001EFD8C /* Main.storyboard */,
 				AC3F7C2421E4D47E001EFD8C /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				AC3F7C3221E4D859001EFD8C /* RedViewController.swift in Sources */,
 				AC3F7C3021E4D5BB001EFD8C /* TabBarViewController.swift in Sources */,
 				AC3F7C3821E4EC2D001EFD8C /* YellowViewController.swift in Sources */,
+				ACF41FFC21E5F73000EAB693 /* BlackViewController.swift in Sources */,
 				AC3F7C3421E4D916001EFD8C /* BlueViewController.swift in Sources */,
 				AC3F7C3621E4D9AF001EFD8C /* NavViewController.swift in Sources */,
 				AC3F7C1E21E4D477001EFD8C /* AppDelegate.swift in Sources */,

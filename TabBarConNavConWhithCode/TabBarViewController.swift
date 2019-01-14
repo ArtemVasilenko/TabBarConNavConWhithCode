@@ -26,6 +26,8 @@ class TabBarViewController: UITabBarController {
         
         self.viewControllers = [redViewController, blueViewController, navViewController]
         
+        self.selectedViewController = self.viewControllers?[2]
+        
     }
     
 
